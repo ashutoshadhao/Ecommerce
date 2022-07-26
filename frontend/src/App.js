@@ -369,14 +369,14 @@ function App() {
             )
           }
         ></Route>
-        <Route
+        {/* <Route
           path="*"
           element={
             window.location.pathname === "/process/payment" ? null : (
               <NotFound />
             )
           }
-        />
+        /> */}
       </Routes>
 
       <Footer />

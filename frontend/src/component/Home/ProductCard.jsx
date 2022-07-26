@@ -61,7 +61,7 @@ const ProductCard = ({ product }) => {
               className="btn btn-primary "
               onClick={addToCartHandler}
             >
-              ADD CARD
+              ADD CART
             </NavLink>
           </div>
         </div>

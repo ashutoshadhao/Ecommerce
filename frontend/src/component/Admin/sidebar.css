@@ -1,0 +1,48 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 1.3rem 0;
+}
+
+.sidebar > a:first-child {
+  padding: 0;
+}
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+.sidebar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493) !important;
+  font: 200 1rem !important ;
+  margin: 1.3rem !important;
+  transition: all 0.5s;
+}
+.sidebar a:hover {
+  color: black !important;
+  transform: scale(1.1);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.MuiTypography-root {
+  background-color: #fff !important;
+}
+.MuiTreeItem-label {
+  font-size: 17px !important;
+}
+.MuiTreeItem-iconContainer {
+  height: 1em !important;
+  width: 1em !important;
+}

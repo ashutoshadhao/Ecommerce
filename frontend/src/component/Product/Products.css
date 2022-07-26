@@ -1,0 +1,43 @@
+.pageLinkActive {
+  background-color: #d72323 !important;
+  color: white;
+  font-weight: bolder;
+}
+.pageLinkActive:hover {
+  color: white !important;
+}
+.filter_box {
+  width: 280px;
+  position: absolute;
+  top: 14vmax;
+  left: 2vmax;
+}
+.rating_box {
+  width: 280px;
+  position: absolute;
+  top: 23vmax;
+  left: 2vmax;
+}
+.filter_height {
+  height: 60px;
+}
+.margin_top_search {
+  margin-top: 43px;
+}
+.categories_sidemenu {
+  width: 280px;
+  position: absolute;
+  top: 30vmax;
+  left: 1vmax;
+  margin-bottom: 50px;
+}
+.category_link {
+  cursor: pointer;
+}
+.min_height_container_product {
+  min-height: 160vh !important;
+}
+.product_container {
+  margin: 25px;
+  border-left: 2px solid black;
+}

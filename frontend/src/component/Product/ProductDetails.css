@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+.main_price {
+  font-weight: bolder;
+  color: #d72323;
+}
+.cut_price {
+  text-decoration: line-through;
+  margin-left: 20px;
+}
+.btn_dark {
+  color: black !important;
+}
+.button_addToCart {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-right: 20px !important;
+  padding: 6px 12px !important;
+  font-size: 15px !important;
+  color: white !important;
+  font-weight: bolder !important;
+  background-color: #0a58ca !important;
+  font-family: "Noto Sans", sans-serif !important;
+}
+.button_buyNow {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-right: 8px !important;
+  font-size: 15px !important;
+  padding: 6px 12px !important;
+  color: white !important;
+  font-weight: bolder !important;
+  background-color: #32c732 !important;
+  font-family: "Noto Sans", sans-serif !important;
+}
+.input_quantity {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 1px;
+  width: 86px;
+  text-align: center;
+  font-weight: 600;
+}
+.description_width {
+  width: 450px;
+  height: 150px;
+  overflow: auto;
+}
+.redColor {
+  color: #d72323;
+}
+.greenColor {
+  color: #32c732;
+}
+.box_size_review {
+  height: 300px;
+  width: 300px;
+  overflow-y: auto;
+  /* border: 1px solid black; */
+}
+.user {
+  font-size: 124px !important;
+  text-align: center !important;
+}
+.scroll {
+  overflow-x: auto;
+}
+.noReviews {
+  color: #d72323;
+  font-weight: 600;
+}
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+.submitReview {
+  border: none;
+  background-color: tomato;
+  font: 500 0.7vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+.submitReview:hover {
+  background-color: rgb(197, 68, 45);
+  transform: scale(1.1);
+}

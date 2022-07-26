@@ -1,0 +1,40 @@
+All links lagane hai 
+Responsive 
+Product lana hai zari details ke sath 
+buy now and add card ki buttons ko thik karna hai 
+social media ke link post karne hai
+footer me text ko thik karna hai 
+Sare Product Catergories Component Banane hai 
+header me addSomething ko change karna hai
+voh card botton header me uss ke Numbers ko dynamically set karna hai 
+favarate section Banana hai 
+items : price diya hai usse dynamically set karna hai 
+logo mile tho 
+mainHomelayout me photo side ke shop now ke button ko set karna hai 
+Product page 
+Contact page 
+about page 
+cart page 
+login system 
+Font dekhni hai ek bar
+admin system ka dashboard 
+star rating ko dynamically set karna hai 
+hover effect in header elements
+Product star color change 
+box shadow to price tag
+trasition upward to price card
+border for price card
+devices ke spelling galat hai sidebar me 
+products home page pe img me thodi problem hai usse css me jake height or weith select karna
+menu at center 
+overlap in productdetails page 
+price tags ko change karna hai 
+price filter ko submit ke tarah Banana hai kyu ki voh bohot lagi hai or use go button click hoga tho hi price active hogi nhi tho nhi
+lower case me input jana chahiye mongodb 
+forgot password not working
+routes is products not product 
+check for the Responsive ness
+remove all warning 
+in productdetails page check out the console i think i might see some warning 
+
+

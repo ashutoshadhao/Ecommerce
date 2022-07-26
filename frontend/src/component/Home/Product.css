@@ -1,0 +1,13 @@
+.card {
+  margin-bottom: 20px !important;
+}
+.buy_btn {
+  background-color: #32c732 !important;
+}
+.card_title {
+  text-decoration: none !important;
+  color: black;
+}
+.card_title:hover {
+  color: black;
+}

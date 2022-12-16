@@ -24,8 +24,9 @@ cloudinary.config({
   // secure: true,
 });
 
-const server = app.listen(process.env.PORT, () => {
-  console.log(`Server is Started on Port -- ${process.env.PORT}`);
+const PORT = process.env.PORT || 5000; 
+const server = app.listen(PORT, () => {
+  console.log(`Server is Started on Port -- ${PORT}`);
 });
 
 //  Uhandled  Promise  Rejection

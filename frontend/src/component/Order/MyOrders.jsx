@@ -4,7 +4,7 @@ import "./myOrders.css";
 import { useSelector, useDispatch } from "react-redux";
 import { clearErrors, myOrders } from "../../actions/orderAction";
 import LoadingBar from "../layout/Loader/LoadingBar";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useAlert } from "react-alert";
 import Typography from "@mui/material/Typography";
 import MetaData from "../layout/MetaData";
@@ -12,7 +12,6 @@ import LaunchIcon from "@mui/icons-material/Launch";
 
 const MyOrders = () => {
   const dispatch = useDispatch();
-  const params = useParams();
   const alert = useAlert();
 
   const { loading, error, orders } = useSelector((state) => state.myOrders);

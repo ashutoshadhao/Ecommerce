@@ -3,7 +3,7 @@ import React from "react";
 import "../layout/Header/Header.css";
 import MetaData from "../layout/MetaData";
 import MainFrame from "./MainFrame";
-import SideBar from "./SideBar.jsx";
+// import SideBar from "./SideBar.jsx";
 import ProductCard from "./ProductCard.jsx";
 import { clearErrors, getProduct } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";

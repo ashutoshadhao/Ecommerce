@@ -2,7 +2,7 @@ import React from "react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import "./ProductDetails.css";
 import Rating from "@mui/material/Rating";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 const ReviewCard = ({ review }) => {
   const options = {
     // size: "large",

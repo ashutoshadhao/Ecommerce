@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Header from "./component/layout/Header/Header";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Footer from "./component/layout/Footer/Footer";
 import Home from "./component/Home/Home.jsx";
 import LoadingBar from "./component/layout/Loader/LoadingBar";
@@ -15,7 +15,7 @@ import { loadUser } from "./actions/userAction";
 import WebFont from "webfontloader";
 import UserOptions from "./component/layout/Header/UserOptions.jsx";
 import { useSelector } from "react-redux";
-import ProtectedRoute from "./component/Route/ProtectedRoute.jsx";
+// import ProtectedRoute from "./component/Route/ProtectedRoute.jsx";
 import Profile from "./component/User/Profile.jsx";
 import UpdateProfile from "./component/User/UpdateProfile.jsx";
 import UpdatePassword from "./component/User/UpdatePassword.jsx";
@@ -41,7 +41,7 @@ import UpdateUser from "./component/Admin/UpdateUser";
 import ProductReviews from "./component/Admin/ProductReviews";
 import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
-import NotFound from "./component/layout/Not Found/NotFound.jsx";
+// import NotFound from "./component/layout/Not Found/NotFound.jsx";
 
 function App() {
   const { loading, isAuthenticated, user } = useSelector((state) => state.user);

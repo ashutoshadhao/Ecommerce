@@ -20,7 +20,7 @@ const Sidebar = () => {
           <DashboardIcon /> Dashboard
         </p>
       </Link>
-      <a>
+      <a href="">
         <p>
           <TreeView
             defaultCollapseIcon={<ExpandMoreIcon />}

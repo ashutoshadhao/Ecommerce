@@ -1,8 +1,8 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import Header from "./component/layout/Header/Header";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./component/layout/Footer/Footer";
 import Home from "./component/Home/Home.jsx";

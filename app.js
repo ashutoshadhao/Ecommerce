@@ -30,7 +30,8 @@ app.get("*", (req, res) => {
   res.sendFile(
     path.resolve(__dirname, "./frontend/build/index.html"),
     function (err) {
-      res.status(500).send("Fuck");
+      console.log("NOT Working hear ");
+      res.status(500).send(err);
     }
   );
 });

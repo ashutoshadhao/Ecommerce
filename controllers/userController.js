@@ -8,23 +8,23 @@ const cloudinary = require("cloudinary");
 
 //Register A User
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
-  const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
-    folder: "a",
-    width: 150,
-    crop: "scale",
-    public_id: `${Date.now()}`,
-    resource_type: "auto",
-  });
-
+  // const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
+  //   folder: "a",
+  //   width: 150,
+  //   crop: "scale",
+  //   public_id: `${Date.now()}`,
+  //   resource_type: "auto",
+  // });
+  // console.log(myCloud);
   const { name, email, password } = req.body;
   const user = await User.create({
     name,
     email,
     password,
-    avatar: {
-      public_id: myCloud.public_id,
-      url: myCloud.secure_url,
-    },
+    // avatar: {
+    //   public_id: myCloud.public_id,
+    //   url: myCloud.secure_url,
+    // },
   });
   sendToken(user, 201, res);
 });

@@ -27,7 +27,8 @@ const Profile = () => {
           <hr className="hr_profile" />
           <div className="profileContainer">
             <div>
-              <img src={user.avatar.url} alt={user.name} />
+              {/* <img src={user.avatar.url} alt={user.name} /> */}
+              <img  alt={user.name} />
               <Link to="/me/update">Edit Profile</Link>
             </div>
             <div>

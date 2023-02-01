@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const path = require("path");
 
-require("dotenv").config({ path: "./config/config.env" });
+require("dotenv").config({ path: "./config.env" });
 
 app.use(express.json());
 app.use(cookieParser());

@@ -2,7 +2,7 @@ const ErrorHander = require("../utils/errorhander");
 module.exports = (err, req, res, next) => {
   err.statusCode = err.statusCode || 500;
   err.message = err.message || "Internal Server Error";
-
+  if (err.statusCode == 500) console.log("bhai yaha error js me hu ");
   // Wrong Mongodb Id error
   if (err.name == "CastError") {
     const message = ` Resource Not Found. Invalid: ${err.path}`;
